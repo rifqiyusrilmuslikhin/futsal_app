@@ -1,0 +1,216 @@
+.box{
+	width: 100%;
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+}
+.kiri{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.tombol{
+	padding: 20px 0;
+}
+.kanan{
+	width: 60%;
+	height: 100%;
+	border: .5px solid black;
+	border-radius: 10px;
+}
+.box-lapangan{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+}
+.kiri-lapangan{
+	width: 30%;
+	height: 100%;
+	padding-left: 40px;
+}
+.kanan-lapangan{
+	width: 70%;
+	height: 100%;
+	padding-left: 40px;
+}
+.box-lapangan .kiri-lapangan h4,
+.box-lapangan .kanan-lapangan h4{
+	font-weight: 500;
+}
+.container-date{
+	display: flex;
+	justify-content: space-between;
+	width: 30%;
+}
+.container-date form{
+	padding-bottom: 20px;
+}
+.tm-container-inner table{
+	margin: auto;
+}
+.form-booking{
+	width: 100%;
+}
+.btn-cari{
+	text-decoration: none;
+	cursor: pointer;
+	border: 0;
+	padding: 5px;
+	width: 75px;
+	margin-left: 8px;
+}
+.btn-pesan{
+	text-decoration: none;
+	cursor: pointer;
+	border: 0;
+	padding: 5px;
+	width: 75px;
+	margin-left: 8px;
+}
+.container-jadwal{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.jadwal-lapangan{
+	padding: 0 20px;
+}
+th{
+	background-color: #ccc;
+}
+td{
+	text-align: center;
+}
+.box-booking{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.kiri-booking{
+	width: 55%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 40px;
+}
+.kanan-booking{
+	width: 40%;
+	height: 100%;
+	border-radius: 10px;
+	margin-top: 60px;
+}
+.drop-down ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+.drop-down ul li ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    margin: 1px 0 0 -9px;
+    padding: 5px 0px;
+}
+.drop-down ul li ul:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 5%;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent #ffffff transparent;
+}
+.drop-down ul li ul li {
+    display: block;
+    width: 120px;
+    font-size: 1.15em;
+    line-height: 40px;
+}
+.drop-down ul li ul li a {
+    font-weight: normal;
+    font-size: .65em;
+    color: #5f7385;
+    padding: 0px;
+    display: block;
+}
+.drop-down ul li ul li a:hover {
+    border-top: none;
+    color: white;
+    background: rgb(0, 98, 102, 0.6);
+}
+.drop-down ul li ul li a:active {
+    position: relative;
+    top: 1px;
+}
+.drop-down ul li a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding-top: 9px;
+}
+.navbar{
+	margin-top: 20px;
+	width: 100%;
+	height: 50px;
+	background-color: #2D99CC;
+}
+.navbar ul{
+	line-height: 50px;
+	list-style: none;
+	padding-left: 50px;
+}
+.navbar ul li h4{
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+.container-login{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.box-login{
+	width: 50%;
+	height: 100%;
+	border: 1px solid #ccc;
+	margin-top: 50px;
+}
+@media (max-width: 420px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  .kiri{
+  	width: 100%;
+  }
+  .kanan{
+  	width: 100%;
+  	border: none;
+  }
+  .kiri-lapangan{
+  	width: 50%;
+  	padding-left: 20px;
+  }
+  .kanan-lapangan{
+  	width: 50%;
+  	padding-left: 0;
+  	padding-right: 10px;
+  }
+}

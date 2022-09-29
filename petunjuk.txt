@@ -1,0 +1,29 @@
+copyright (c) Rifqi Yusril Muslikhin 2020
+
+User
+=====================
+Username user : user
+Password user : user
+
+Admin
+=======================
+username admin : admin
+password admin : admin
+
+petunjuk
+====================================================================================
+1. ekstrak file dan copy folder app_futsal dan paste ke dalam folder xampp/htdocs/ 
+2. buka xampp dan aktifkan apache dan mysql
+3. search di browser "http://localhost/phpmyadmin"
+4. buat database dengan nama app_futsal
+5. import file app_futsal.sql di folder db ke database 
+6. search di browser "http://localhost/app_futsal" untuk user
+7. search di browser "http://localhost/app_futsal/admin" untuk admin
+====================================================================================
+
+- aplikasi ini membuat pelanggan bisa melihat jadwal dan membooking lapangan futsal
+  tanpa harus datang ke tempat
+- hanya 1 tempat penyewaan lapangan
+- terdapat 3 lapangan
+- terdiri 2 jenis lapangan yaitu sintetis dan vinyl
+- pelanggan harus memiliki akun lebih dulu untuk bisa membooking lapangan
